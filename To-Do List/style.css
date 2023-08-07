@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top{
+    width:100%;
+    min-height: 30vh;
+    background-color: green;
+}
+.top h1{
+      padding-top: 10vh;
+    text-align: center;
+    font-size: 2.5vmax;
+    font-weight: 600;
+    color:white;
+}
+.add{
+    width:100%;
+    min-height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    gap:2vw;
+}
+p{
+    text-align:left;
+    font-size: 2vmax;
+    font-weight: 600;
+}
+.input1{
+      width:50%;
+      min-height: 5vh;
+      border:2px solid black;
+      font-size: 2vmax;
+}
+#btn1{
+    padding-inline: 1.5vw;
+    padding-block: 1.5vh;
+    background-color: green;
+    font-size: 1.2vmax;
+    color:azure;
+    border-radius: 6px;
+}
+
+.para{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+@media(max-width:600px){
+    .para{
+        font-size: 4vw;
+    }
+    .divi{
+        width:60%;
+    }
+}
